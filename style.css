@@ -1,42 +1,41 @@
 /* STYLE FOR YOUR INDEX.HTML */
 body{
-    background-color: azure;
+    background-color: rgb(211, 255, 255);
 }
 
 h1{
-    text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 300%;
     position: absolute;
     top: 15px;
-    left: 65vh;
+    left: 450px;
 }
 
 h2{
-    text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 145%;
     position: absolute;
-    left: 65vh;
     top: 120px;
+    left: 450px;
+    margin: 0;
 }
 
 .main-image{
     height: 40vh;
-    width: 60vw:
+    width: 35vw;
     border: 2px solid black;
     position: absolute;
-    top: 200px;
-    left: 85vh;
+    top: 180px;
+    left: 600px;
 }
 
 .image2{
     height: 40vh;
-    width: 60vw:
+    width: 20vw;
     border: 2px solid black;
     position: absolute;
-    top: 200px;
-    left: 45vh; 
+    top: 180px;
+    left: 300px; 
 }
 
 .intro-p{
@@ -44,7 +43,7 @@ h2{
     font-size: 125%;
     position: absolute;
     top: 525px;
-    left: 45vh;
+    left: 300px;
     padding-right: 10%;
 }
 
@@ -66,7 +65,7 @@ h2{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    border: 1px solid black;
+    border: 2px solid black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 120%;
 }
