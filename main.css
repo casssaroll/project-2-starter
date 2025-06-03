@@ -1,6 +1,24 @@
 /* STYLE FOR YOU MAIN.HTML */
 body{
+background-color: lemonchiffon;
+}
 
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 350%;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-style: oblique;
+    margin: 0;
+    padding-top: 3%;
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 145%;
+    margin: 0;
+    text-align: center;
+    color: cornflowerblue;
 }
 
 .g1{
@@ -19,4 +37,97 @@ body{
     display: block;
     text-align: center;
     height: 40vh;
+}
+
+.g4{
+    display: block;
+    text-align: center;
+    height: 40vh;
+}
+
+.img1{
+    height: 40vh;
+}
+
+.img2{
+    height: 40vh;
+}
+
+.img3{
+    height: 40vh;
+}
+
+.img4{
+    height: 40vh;
+}
+
+.img5{
+    height: 40vh;
+}
+
+.img6{
+    height: 40vh;
+}
+
+.img7{
+    height: 40vh;
+}
+
+.img8{
+    height: 40vh;
+}
+
+.img9{
+    height: 40vh;
+}
+
+.img10{
+    height: 40vh;
+}
+
+.img11{
+    height: 40vh;
+}
+
+.img12{
+    height: 40vh;
+}
+
+.img13{
+    height: 40vh;
+}
+
+.img14{
+    height: 40vh;
+}
+
+.img15{
+    height: 40vh;
+}
+
+
+.img16{
+    height: 40vh;
+}
+
+button{
+    display: block;
+    width: 190px;
+    height: 50px;
+    background-color: lightpink;
+    margin: 2vw;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 130%;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background-color: plum;
+    color: aliceblue;
+    border: yellow solid 2px;
+}
+
+.btn1:active{
+    transform: rotate(5deg);
 }
