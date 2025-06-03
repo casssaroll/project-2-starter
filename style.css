@@ -5,67 +5,108 @@ body{
 
 h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 300%;
-    position: absolute;
-    top: 15px;
-    left: 450px;
+    font-size: 350%;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-style: oblique;
+    margin: 0;
+    padding-top: 3%;
 }
 
 h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 145%;
-    position: absolute;
-    top: 120px;
-    left: 450px;
     margin: 0;
+    text-align: center;
+    color: cornflowerblue;
 }
 
-.main-image{
+.main-images{
     height: 40vh;
-    width: 35vw;
-    border: 2px solid black;
-    position: absolute;
-    top: 180px;
-    left: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    display: block;
+    text-align: center;
 }
 
-.image2{
+.img1{
     height: 40vh;
-    width: 20vw;
-    border: 2px solid black;
-    position: absolute;
-    top: 180px;
-    left: 300px; 
+}
+
+.img2{
+    height: 40vh;
+}
+
+.img3{
+    height: 40vh;
+}
+
+.img4{
+    height: 40vh;
 }
 
 .intro-p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 125%;
-    position: absolute;
-    top: 525px;
-    left: 300px;
-    padding-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.mary-pics{
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    }
+
+.mary{
+    height: 40vh;
+}
+
+.marywight{
+    height: 40vh;
 }
 
 .flex-container{
     display: flex;
     width: 100vw;
-    height: 50vh;
-    flex-direction: column;
-    justify-content: flex-start;
-    position: absolute;
-    top: 15%;
+    height: 40vh;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.item{
-    width: 175px;
-    height: 100px;
-    background: lightpink;
-    margin: 1vw;
+button{
+    display: block;
+    width: 190px;
+    height: 50px;
+    background-color: lightpink;
+    margin: 2vw;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 2px solid black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 120%;
+    font-size: 130%;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background-color: plum;
+    color: aliceblue;
+    border: yellow solid 2px;
+}
+
+.btn1:active{
+    transform: rotate(5deg);
+}
+
+.btn3:hover{
+    background-color: plum;
+    color: aliceblue;
+    border: yellow solid 2px;
+}
+
+.btn3:active{
+    transform: rotate(5deg);
 }

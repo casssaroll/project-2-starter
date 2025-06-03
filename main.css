@@ -1,1 +1,22 @@
 /* STYLE FOR YOU MAIN.HTML */
+body{
+
+}
+
+.g1{
+    display: block;
+    text-align: center;
+    height: 40vh;
+}
+
+.g2{
+    display: block;
+    text-align: center;
+    height: 40vh;
+}
+
+.g3{
+    display: block;
+    text-align: center;
+    height: 40vh;
+}
