@@ -101,6 +101,16 @@ button{
     transform: rotate(5deg);
 }
 
+.btn2:hover{
+    background-color: plum;
+    color: aliceblue;
+    border: yellow solid 2px;
+}
+
+.btn2:active{
+    transform: rotate(5deg);
+}
+
 .btn3:hover{
     background-color: plum;
     color: aliceblue;
